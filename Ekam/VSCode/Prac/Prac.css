@@ -1,0 +1,16 @@
+.marquee {
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 100%;
+    font-size: 50px;
+    
+}
+.marquee1{
+    width: 50px;
+    animation: rightThenLeft 5s linear infinite;
+}
+@-webkit-keyframes rightThenLeft {
+    0%   {left: 0%;}
+    100% {left: 90%;}
+}

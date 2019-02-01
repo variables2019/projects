@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+}
+.parent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 50% 50%;
+}
+.parent div{
+    background: #f00;
+}
+.parent div:nth-child(1){
+    height: 0px;
+    grid-row: 1;
+    grid-column: 1/3;
+    animation: movDiv1 1s ease-out forwards;
+}
+.parent div:nth-child(2){
+    height: 0px;
+    grid-row: 2;
+    grid-column: 1;
+    animation: movDiv2 1s ease-out forwards 1s;
+}
+.parent div:nth-child(3){
+    height: 0px;
+    grid-row: 2;
+    grid-column: 2;
+    animation: movDiv3 1s ease-out forwards 2s;
+}
+.parent div:nth-child(4){
+    height: 0px;
+    grid-column: 1/3;
+    grid-row: 3;
+    animation: movDiv4 1s ease-out forwards 3s;
+}
+@keyframes movDiv1{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+@keyframes movDiv2{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+@keyframes movDiv3{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+@keyframes movDiv4{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}

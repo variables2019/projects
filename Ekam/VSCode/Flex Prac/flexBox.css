@@ -1,0 +1,22 @@
+.parent{
+    display: flex;
+    align-items: baseline;
+    background: #38d;
+    height: 200px;
+}
+.parent div{
+    background: #c3c3dd;
+    margin: 10px;
+    padding: 30px;
+    /* font-size: 30px; */
+}
+.b1{
+    font-size: 50px;
+}
+.b2{
+    font-size: 90px;
+}
+.b3{
+    font-size: 30px;
+}
+

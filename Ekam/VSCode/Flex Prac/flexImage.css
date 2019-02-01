@@ -1,0 +1,14 @@
+.parent{
+
+    display: flex;
+    background: #000;
+    justify-content: stretch; 
+}
+img{
+    width: 45%;
+    height: 400px;
+}
+.img1{
+}
+.parent:nth-child(1){
+}

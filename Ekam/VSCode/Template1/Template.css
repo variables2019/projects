@@ -1,0 +1,44 @@
+html{
+    height: 100%;
+}
+body{
+    margin: 0px;
+    height: 100%;
+    background: #000;
+}
+.parent1{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background: #f6ba6a;
+}
+.p1{
+    width: 100%;
+    animation: movParent 2s ease-out;
+}
+.parent2{
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    background: #f6ba6a;
+    float: left;
+}
+.p2{
+    width: 100%;
+    /* animation: movParentss2 2s ease-out; */
+}
+@keyframes movParent{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+/* @keyframes movParentss2{
+    0%{
+    }
+    100%{
+        
+    }
+} */

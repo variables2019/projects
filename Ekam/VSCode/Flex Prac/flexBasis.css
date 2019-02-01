@@ -1,0 +1,32 @@
+.parent{
+    width: 300px;
+    height: 500px;
+    display: flex;
+    border: 1px solid #c3c3c3;
+}
+.parent div{
+    /* flex-basis: 50px; */
+    flex: 1;
+}
+/* .parent div:nth-child(2){
+    flex-basis: 100px;
+} */
+.parent div:nth-of-type(2){
+    /* flex-basis: 100px; */
+    flex: 2;
+}
+.Red{
+    background: #f00;
+}
+.Blue{
+    background: #00f;
+}
+.Green{
+    background: #0f0;
+}
+.Yellow{
+    background: #ff0;
+}
+.Black{
+    background: #000;
+}

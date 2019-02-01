@@ -1,0 +1,18 @@
+.parent{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    border: 1px solid #000;
+}
+.parent div{
+    flex: 1;
+}
+.Red{
+    background: #f00;
+}
+.Blue{
+    background: #00f;
+}
+.Green{
+    background: #0f0;
+}
